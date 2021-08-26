@@ -1,0 +1,20 @@
+//swapping of two numbers
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,b,temp;
+printf("\n enter the value of a");
+scanf("%d",&a);
+printf("\n enter the value of b");
+scanf("%d",&b);
+//logic to swap numbers
+temp=a;
+a=b;
+b=temp;
+//print the value after swapping
+printf("\n the value of a and b after swapping");
+printf("\n the value of a is %d",a);
+printf("\n the value of b is %d",b);
+return 0;
+}
